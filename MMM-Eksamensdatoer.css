@@ -1,0 +1,66 @@
+.p1 {
+  color: #ffffff;
+  font-size: 12pt;
+}
+
+.table {
+  background-color: #000000
+  color: #ffffff;
+  font-size: 12pt;
+}
+/*
+
+  background-color: #EEEEEE;
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+
+.table tr:nth-child(even) {
+  background: #C6C6C6;
+}
+
+.subject, .title, .date {
+  color: #111111;
+  border: 1px solid #999;
+  font-size: 12pt;
+  font-family: "Helvetica Neue", Helvetica, Arial;
+}
+
+.subject {
+  padding: 0 6px;
+  text-align: left;
+}
+
+.title {
+  padding: 0 6px;
+  text-align: left;
+}
+
+.date {
+  padding: 0 6px;
+  text-align: right;
+  vertical-align: top;
+}
+
+.titleHead, .dateHead {
+  border-left: 2px solid #D0E4F5;
+}
+
+.dateHead, .subjectHead, .titleHead {
+  color: #FFFFFF;
+  font-size: 15px;
+  font-weight: bold;
+  background: #2E2E2E;
+  text-align: center;
+  background: -moz-linear-gradient(top, #626262 0%, #434343 66%, #2E2E2E 100%);
+  background: -webkit-linear-gradient(top, #626262 0%, #434343 66%, #2E2E2E 100%);
+  background: linear-gradient(to bottom, #626262 0%, #434343 66%, #2E2E2E 100%);
+  border-bottom: 2px solid #444444;
+}
+*/
+/*
+.table thead th:first-child {
+  border-left: none;
+}
+*/
