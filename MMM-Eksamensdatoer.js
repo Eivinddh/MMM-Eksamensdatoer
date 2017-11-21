@@ -34,18 +34,19 @@ Module.register("MMM-Eksamensdatoer",{
   defaults: {
     maximumEntries: 10,
     maxTitleLength: 25,
+    timeReloadInterval: 86400000
   },
   getStyles: function () {
     return ["MMM-Eksamensdatoer.css"]
   },
-  getDom: function() {
-    var daily = 0;
-    while (true) {
 
-//    if (daily > 0) {
-//        await sleep(86400000);
-//	daily++;    
-//    }
+  start: function() {
+    var self = this;
+    setInterval(function() {
+	self.updateDom();
+    }, 1000);
+  },
+  getDom: function() {
     var wrapper = document.createElement("div");
     var para = document.createElement("p");
 
